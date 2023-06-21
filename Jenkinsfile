@@ -39,8 +39,8 @@ pipeline {
 		    else
 		      sleep 1
         fi
-	#docker rmi trio-db:v1
- 	#docker rmi trio-app:v1
+	docker rmi trio-db:v1
+ 	docker rmi trio-app:v1
         '''
       }
     }
